@@ -5103,6 +5103,13 @@ a img {
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+
 .footer {
     background: #1488CC;
     /* fallback for old browsers */
