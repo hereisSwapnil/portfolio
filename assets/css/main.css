@@ -5103,6 +5103,23 @@ a img {
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
 
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .responsive-image {
+      width: 70%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .responsive-image {
+      width: 70%;
+    }
+  }
+
 .image-container {
     display: flex;
     justify-content: center;
